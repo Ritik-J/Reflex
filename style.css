@@ -65,12 +65,19 @@ p {
 }
 
 .overlay {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 20px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
   color: #f9ca24;
+  font-weight: 600;
   font-size: 2em;
   text-align: center;
   z-index: 100;
@@ -80,7 +87,7 @@ p {
 .overlay-button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #ff6347;
+  background: #ff6347;
   color: white;
   border: none;
   border-radius: 5px;
